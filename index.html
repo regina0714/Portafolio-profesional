@@ -1,40 +1,117 @@
-<!DOCTYPE html><!--ESTE ES UN COMENTARIO-->
-<html lang="es">
-
-<head>
-    <title>Portafolio personal - Regina Zamacona Martínez</title>
 </head>
 
 <body>
-    <!--TODO LO QUE COLOQUEN AQUÍ LO VERÁ EL USUARIO-->
+    <link rel="stylesheet" href="css/main.css">
+    <!-- Todo lo que se coloque aquí será visible en la página web -->
     <header>
-        <h1>Portafolio profesional</h1>
-        <h4>Regina Zamacona Martínez</h4>
+        <h1>Portafolio Profesional</h1> <h4>Zamacona Martínez Regina </h4>
 
     </header>
-    <!--menú de navegación-->
+    <!-- Menu de navegación -->
     <nav>
         <a href="#">Inicio</a>
         <a href="#">Sobre mí</a>
-        <a href="#"> Mi experiencia</a>
-        <a href="#"> Contáctame</a>
+        <a href="#">Mi Experiencia</a>
+        <a href="#">Contacto</a>
+    <nav class="lista-proyectos">
+        <a href="#bienvenida">Sobre mi</a>
+        <a href="#proyectos">Proyectos Tecnologicos</a>
+        <a href="#competencias">Mi Experiencia</a>
+        <a href="#contacto">Contacto</a>
     </nav>
-    <!--CONTENIDO PRINCIPAL-->
+    <!-- Contenido principal -->
     <main>
         <section>
-            <h2> Bienvenidos a mi portafolio profesional</h2>
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
-                industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
-                scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap
-                into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the
-                release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing
-                software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-            <img alt="Foto de perfil" src="https://images.pexels.com/photos/1043474/pexels-photo-1043474.jpeg" width="200"/>
+        <section id="bienvenida">
+            <h2>Bienvenidos a mi portafolio Profesional</h2>
+            <p>Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido
+            <p>Mi nombre es <mark>Zamacona Martínez Regina</mark> soy especialista en <strong>Tecnologías de la
+                    información</strong>. Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de
+                texto. Lorem Ipsum ha sido
+                el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona
+                que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró
+                hacer un libro de textos especimen. No sólo sobrevivió 500 años, sino que tambien ingresó como texto de
+                relleno en documentos electrónicos, quedando esencialmente igual al original. Fue popularizado en los
+                60s con la creación de las hojas "Letraset", las cuales contenian pasajes de Lorem Ipsum, y más
+                recientemente con software de autoedición, como por ejemplo Aldus PageMaker, el cual incluye versiones
+                de Lorem Ipsum.</p>
+                <img src="https://images.pexels.com/photos/2291340/pexels-photo-2291340.jpeg" alt="Foto de perfil" width="500" height="500">
+            <p>Mi <small>Frase favorita es:</small> <i>"La perseverancia es la clave del éxito."</i></p>
+            <img src= "58D579D9-16B6-4981-8391-B918BE7DC3F8_1_105_c.jpeg" alt="Foto de perfil"
+                width="350" height="450">/Users/reginazamacona/Documents/Portafolio-pro
+        </section>
+        <section id="proyectos">
+            <h2>Proyectos Tecnológicos</h2>
+            <div class="lista-proyectos">
+                <article class="proyecto">
+                    <h3>Sistemas de Estadias</h3>
+                    <p>
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Numquam totam sit nisi quis laboriosam
+                        veniam.
+                    </p>
+                </article>
+                <article class="proyecto">
+                    <h3>Sistemas de Veterinarias</h3>
+                    <p>
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Numquam totam sit nisi quis laboriosam
+                        veniam.
+                    </p>
+                </article>
+                <article class="proyecto">
+                    <h3>Sistemas de Florerias</h3>
+                    <p>
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Numquam totam sit nisi quis laboriosam
+                        veniam.
+                    </p>
+                </article>
+            </div>
+        </section>
+        <section id="competencias">
+            <h2>Competencias Profesionales</h2>
+            <h3>Tecnologías y Lenguajes</h3>
+            <ul>
+                <li>HTML5</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>C#</li>
+            </ul>
+            <h3>Dominio de Habilidades</h3>
+            <div>
+                <label>HTML</label>
+                <progress min="0" max="100" value="50">50%</progress>
+            </div>
+            <div>
+                <label>CSS</label>
+                <progress min="0" max="100" value="50">50%</progress>
+            </div>
+            <div>
+                <label>JavaScript</label>
+                <progress min="0" max="100" value="50">50%</progress>
+            </div>
+        </section>
+        <section id="contacto">
+
+            <h2>Contactame</h2>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Esse id eum voluptatum asperiores mollitia
+                possimus recusandae delectus quaerat, provident ex!</p>
+            <form>
+                <div class="campos">
+                    <label>Nombre Completo</label>
+                    <input type="text" value="Ingresa tu nombre">
+                </div>
+                <div class="campos">
+                    <label>Telefono</label>
+                    <input type="text" value="Ingresa tu telefono">
+                </div>
+                <div class="campos">
+                    <button type="submit">Enviar</button>
+                </div>
+            </form>
         </section>
     </main>
     <footer>
-        <p>&copy; 2025 Todos los derechos reservados</p>
+        <p>2025 Todos los derechos reservados &copy; 2024</p>
+        <p>&copy; 2025 Todos los derechos reservados </p>
     </footer>
 </body>
-
-</html>
+</head>
